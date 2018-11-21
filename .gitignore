@@ -1,3 +1,6 @@
-/.idea
-/.vcode
-/node_modules
+.idea
+.vcode
+node_modules
+yarn-error.log
+.cache
+public/assets/dist
