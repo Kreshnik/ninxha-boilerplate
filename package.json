@@ -3,9 +3,9 @@
   "name": "ninxha-boilerplate",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node ninxha.config.js",
-    "watch": "node ninxha.config.js --watch",
-    "production": "node ninxha.config.js --production"
+    "dev": "parcel index.html --out-dir public/assets/dist",
+    "watch": "parcel watch index.html --out-dir public/assets/dist",
+    "production": "parcel build index.html --out-dir public/assets/dist"
   },
   "keywords": [],
   "author": "Kreshnik Hasanaj",
