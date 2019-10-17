@@ -1,19 +1,19 @@
-@media (max-width: $screen-sm-max) {
-  @import "screens/screen-sm-max";
+@include media-breakpoint-down(xl) {
+    @import 'screens/screen-xl';
 }
 
-@media (max-width: $screen-xs-max) {
-  @import "screens/screen-xs";
+@include media-breakpoint-down(lg) {
+    @import 'screens/screen-lg';
 }
 
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  @import "screens/screen-sm";
+@include media-breakpoint-down(md) {
+    @import 'screens/screen-md';
 }
 
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-  @import "screens/screen-md";
+@include media-breakpoint-down(sm) {
+    @import 'screens/screen-sm';
 }
 
-@media (min-width: $screen-lg-min) {
-  @import "screens/screen-lg";
+@include media-breakpoint-down(xs) {
+    @import 'screens/screen-xs';
 }
